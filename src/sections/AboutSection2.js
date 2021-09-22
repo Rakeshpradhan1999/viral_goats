@@ -38,7 +38,11 @@ const AboutSection2 = () => {
             className="bg-violet py-8 px-14 rounded-lg md:ml-4 "
             style={{ border: "3px solid #C98769", minHeight: 300 }}
           >
+<<<<<<< HEAD
             <h3 className="text-3xl md:text-4xl">The Value of Viral Goats</h3>
+=======
+            <h3 className="text-4xl">The Value of Viral Goats</h3>
+>>>>>>> 8c79354478559121ebe1d4671f9358c24bdddaec
             <p
               className="font-serif mt-6 text-sm"
               style={{ lineHeight: "24px" }}
