@@ -3,8 +3,8 @@ import Goat2 from "../assets/images/goat2.png";
 import { Button } from "../components";
 const HeroSection = () => {
   return (
-    <section className="hero-section ">
-      <div className="moving-bg pt-20 pb-28">
+    <section className="hero-section" id="buyviralgoat">
+      <div className="moving-bg pt-20 pb-32">
         <div className="container md:flex md:items-center md:justify-between h-full">
           <div className="md:w-1/4 md:self-end ">
             <img src={Goat1} alt="" className="mx-auto" />

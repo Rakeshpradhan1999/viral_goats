@@ -21,15 +21,15 @@ const Index = () => {
         <div className="hidden md:block">
           <nav className="container flex justify-between items-center">
             <div className="flex">
-              <DesktopNavItem text="About" />
-              <DesktopNavItem text="Buy ViralGoats" />
+              <DesktopNavItem text="About" link="#about" />
+              <DesktopNavItem text="Buy ViralGoats" link="#buyviralgot" />
             </div>
             <div>
               <img src={Logo} alt="logo" />
             </div>
             <div className="flex">
-              <DesktopNavItem text="Roadmap" />
-              <DesktopNavItem text="FAQ's" />
+              <DesktopNavItem text="Roadmap" link="#roadmap" />
+              <DesktopNavItem text="FAQ's" link="#faq" />
             </div>
           </nav>
         </div>

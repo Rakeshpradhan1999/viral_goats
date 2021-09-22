@@ -59,7 +59,7 @@
     rgba(0, 0, 0, 0) 100%
   );
   background-size: cover;
-  min-height: 80vh;
+  min-height: 90vh;
 }
 .moving-bg {
   height: 80vh;
@@ -86,4 +86,8 @@
   100% {
     background-position: 0 0;
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }

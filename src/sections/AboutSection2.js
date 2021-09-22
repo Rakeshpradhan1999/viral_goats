@@ -1,18 +1,16 @@
-import Goat1 from "../assets/images/goat6.png";
-import Goat1_1 from "../assets/images/goat6_2.png";
-import Goat2 from "../assets/images/goat7.png";
-import Goat2_1 from "../assets/images/goat7_2.png";
+import Goat1 from "../assets/images/goat10.png";
+import Goat2 from "../assets/images/goat11.png";
 
 const AboutSection2 = () => {
   return (
-    <section className="py-24 text-white text-center">
-      <div className="container flex">
-        <div className="w-1/2">
+    <section className="py-16 md:py-24 text-white text-center">
+      <div className="container md:flex">
+        <div className="w-full md:w-1/2 my-8">
           <div
             className="bg-cardbg  py-8 px-14 rounded-lg mb-8"
-            style={{ border: "3px solid #C98769 ", minHeight: 280 }}
+            style={{ border: "3px solid #C98769 ", minHeight: 300 }}
           >
-            <h3 className="text-4xl">Goatanomics</h3>
+            <h3 className="text-3xl md:text-4xl">Goatanomics</h3>
             <p
               className="font-serif mt-6 text-sm"
               style={{ lineHeight: "24px" }}
@@ -27,16 +25,20 @@ const AboutSection2 = () => {
             </p>
           </div>
           <div className="flex items-center justify-center mt-10">
-            <img src={Goat1} alt="" />
-            <img src={Goat1_1} alt="" />
+            <img
+              src={Goat2}
+              alt=""
+              style={{ maxWidth: "90%" }}
+              className="mx-auto"
+            />
           </div>
         </div>
-        <div className="w-1/2">
+        <div className="md:w-1/2 my-8">
           <div
-            className="bg-violet py-8 px-14 rounded-lg md:ml-4 mb-8"
-            style={{ border: "3px solid #C98769", minHeight: 280 }}
+            className="bg-violet py-8 px-14 rounded-lg md:ml-4 "
+            style={{ border: "3px solid #C98769", minHeight: 300 }}
           >
-            <h3 className="text-4xl">LOREM IPSUM</h3>
+            <h3 className="text-3xl md:text-4xl">The Value of Viral Goats</h3>
             <p
               className="font-serif mt-6 text-sm"
               style={{ lineHeight: "24px" }}
@@ -50,8 +52,12 @@ const AboutSection2 = () => {
             </p>
           </div>
           <div className="flex items-center justify-center mt-10">
-            <img src={Goat2} alt="" />
-            <img src={Goat2_1} alt="" />
+            <img
+              src={Goat1}
+              alt=""
+              style={{ maxWidth: "90%" }}
+              className="mx-auto"
+            />
           </div>
         </div>
       </div>

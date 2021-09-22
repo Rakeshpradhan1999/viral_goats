@@ -48,9 +48,9 @@ const Faq = () => {
   };
 
   return (
-    <section className="py-60 bg-white text-primary">
-      <div className="container flex items-center">
-        <div className="md:w-1/5">
+    <section className="py-20 md:py-60 bg-white text-primary" id="faq">
+      <div className="container md:flex md:items-center">
+        <div className="hidden md:block md:w-1/5">
           <img src={Goat} alt="" className="mx-auto" />
         </div>
         <div className="md:w-4/5">
