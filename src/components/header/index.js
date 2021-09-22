@@ -30,7 +30,6 @@ const Index = () => {
             <div className="flex">
               <DesktopNavItem text="Roadmap" />
               <DesktopNavItem text="FAQ's" />
-              <DesktopNavItem text="Contact Us" />
             </div>
           </nav>
         </div>
